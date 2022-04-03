@@ -6,6 +6,7 @@
     <title>Cats</title>
     <link rel="icon" href="img/logo_title.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-add.css">
     <link rel="stylesheet" href="css/simple-lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <script src="js/simple-lightbox.js"></script>
@@ -21,15 +22,22 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="cntr featuredItemsWrap">
-                <h2 class="featuredHead">Котики ищут свой дом</h2>
-                <div class="featuredDesc">
-                    Истинное добро всегда просто
-                </div>
-                <div class="featuredItems"></div>
-            </div>
-        </section>
+        <div class="container checkOutWrap">
+            <section class="infoWrap">
+                <form id="addCat">
+                    <h2>Добавить котика</h2>
+                    <input required type="text" name="name" placeholder="Имя">
+                    <input type="text" name="img_link" placeholder="Картинка">
+                    <input type="number" name="age" placeholder="Возраст">
+                    <input type="number" name="rate" placeholder="Рейтинг">
+                    <input type="text" name="favourite" placeholder="Любимчик?">
+                    <textarea name="description" placeholder="Еще немного о питомце"></textarea>
+                    <input required type="number" name="id" placeholder="Порядковый номер">
+                    <button type="submit">ДОБАВИТЬ</button>
+                </form>
+            </section>
+        </div>
+        
         <div class="photoBack"></div>
     </main>
     <footer class="cntr">
@@ -60,6 +68,6 @@
             </div>
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/add.js"></script>
 </body>
 </html>

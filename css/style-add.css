@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.checkOutWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 63px;
+  align-items: flex-start;
+}
+
+.infoWrap {
+  width: 355px;
+}
+
+.infoWrap h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.infoWrap textarea, .infoWrap input {
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  width: 100%;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 13px;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.infoWrap input::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+.infoWrap input::-moz-placeholder {
+  color: #b1b1b1;
+}
+
+.infoWrap input:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.infoWrap input:-moz-placeholder {
+  color: #b1b1b1;
+}
+
+.infoWrap button {
+  width: 100%;
+  border: 1px solid #f16d7f;
+  background: #ffffff;
+  margin-top: 28px;
+  padding: 15px;
+  color: #f16d7f;
+  font-size: 20px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.infoWrap button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.infoWrap form > * {
+  width: 100%;
+}

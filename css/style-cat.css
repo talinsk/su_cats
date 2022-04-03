@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/lato-black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 10px auto 0;
+}
+
+.checkOutWrap {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.photoContainer {
+  max-width: 555px;
+}
+
+.infoWrap {
+  width: 355px;
+}
+
+.infoWrap div {
+  margin-bottom: 10px;
+}
+
+.infoWrap h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.photoWrap {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.catParam {
+  color: #b9b9b9;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.catValue {
+  color: #2f2f2f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.buttonWrap {
+  display:flex;
+  justify-content:end;
+  font-size: 26px;
+  padding-top: 20px;
+  padding-right: 30px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonWrap .fas {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #999;
+}
+
+.buttonWrap .fas:hover {
+  color: #333;
+}
+
+.infoWrap textarea {
+  margin-top: 5px;
+  width: 344px;
+  height: 160px;
+}

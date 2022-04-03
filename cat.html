@@ -6,6 +6,7 @@
     <title>Cats</title>
     <link rel="icon" href="img/logo_title.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-cat.css">
     <link rel="stylesheet" href="css/simple-lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <script src="js/simple-lightbox.js"></script>
@@ -20,16 +21,33 @@
             </a>
         </div>
     </header>
-    <main>
-        <section>
-            <div class="cntr featuredItemsWrap">
-                <h2 class="featuredHead">Котики ищут свой дом</h2>
-                <div class="featuredDesc">
-                    Истинное добро всегда просто
+    <main class="person">
+        <div class="buttonWrap">
+        </div>
+        <div class="container checkOutWrap">
+            <div>
+                <div id="photoContainer" class="photoContainer">
                 </div>
-                <div class="featuredItems"></div>
             </div>
-        </section>
+            <div class="infoWrap">
+                <h2 class="catName">
+                </h2>
+                <div data-field="age">
+                    <span class="catParam">ВОЗРАСТ:</span>
+                    <span class="catValue"></span>
+                </div>
+                <div data-field="rate">
+                    <span class="catParam">РЕЙТИНГ:</span>
+                    <span class="catValue"></span>
+                </div>
+                <div data-field="description">
+                    <span class="catParam">ОПИСАНИЕ:</span>
+                    <span class="catValue"></span>
+                </div>
+            </div>
+        </div>
+        
+        
         <div class="photoBack"></div>
     </main>
     <footer class="cntr">
@@ -60,6 +78,6 @@
             </div>
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/cat.js"></script>
 </body>
 </html>
